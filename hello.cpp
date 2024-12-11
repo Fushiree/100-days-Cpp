@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    cout << 123 % 10;
+    cout << "Hello Fushiree";
 
     return 0;
 }
