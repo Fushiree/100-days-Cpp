@@ -27,13 +27,13 @@ int main() {
 // using namespace std;
 
 // // Hàm in hình chữ nhật
-// void inhinchunhat(int sohang, int socot) {
+// void inhinchunhat(int hang, int cot) {
 //     // Vòng lặp bên ngoài để duyệt qua các hàng của hình chữ nhật
-//     for (int i = 0; i < sohang; ++i) {
+//     for (int i = 0; i < hang; ++i) {
 //         // Vòng lặp bên trong để duyệt qua các cột của hình chữ nhật
-//         for (int j = 0; j < socot; ++j) {
+//         for (int j = 0; j < cot; ++j) {
 //             // Kiểm tra xem vị trí hiện tại có phải là cạnh của hình chữ nhật không
-//             if (i == 0 || i == sohang - 1 || j == 0 || j == socot - 1) {
+//             if (i == 0 || i == hang - 1 || j == 0 || j == cot - 1) {
 //                 cout << "*  ";  // In dấu '*' nếu vị trí hiện tại là cạnh của hình chữ nhật
 //             } else {
 //                 cout << "   ";  // In khoảng trắng nếu vị trí hiện tại không phải là cạnh của hình chữ nhật
@@ -44,11 +44,11 @@ int main() {
 // }
 
 // int main() {
-//     int sohang, socot;
+//     int hang, cot;
 //     cout << "Hay nhap kich thuoc cua hinh chu nhat: ";  // Yêu cầu người dùng nhập kích thước của hình chữ nhật
-//     cin >> sohang >> socot;  // Nhận giá trị số hàng và số cột từ người dùng
+//     cin >> hang >> cot;  // Nhận giá trị số hàng và số cột từ người dùng
 
-//     inhinchunhat(sohang, socot);  // Gọi hàm inhinchunhat để in hình chữ nhật với kích thước đã nhập
+//     inhinchunhat(hang, cot);  // Gọi hàm inhinchunhat để in hình chữ nhật với kích thước đã nhập
 
 //     return 0;  // Kết thúc chương trình
 // }
